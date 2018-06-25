@@ -34,6 +34,8 @@ chmod 777 tempfile.txt
 
 echo "The current directory is $(pwd)"
 
+```
+
 3. Alternatively you can save the pwd env var in a variable for example:
 
 ```
