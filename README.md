@@ -1,6 +1,6 @@
-#### Bash Script Learning
+## Bash Script Learning
 
-- Basic bash scipts to create a file.
+#### basicscript.sh 
 
 1. Use ``touch`` cmd to create a file called `` basicscript.sh ``.
 
@@ -20,3 +20,26 @@ chmod 777 tempfile.txt
 
 5. Alternatively you can make the file an executable run `` chmod 775 basicscript.sh ``
    then the file can be executed with `` ./basicscript.sh ``.
+
+#### pwdScript.sh
+
+1. `` touch `` file called `` pwdScript.sh ``
+
+2. Open `` pwdScript.sh `` and add the following:
+
+```
+#!/bin/bash
+
+# Output the current directory
+
+echo "The current directory is $(pwd)"
+
+3. Alternatively you can save the pwd env var in a variable for example:
+
+```
+cDir=$(pwd)
+
+echo "The current directory is ${output}"
+
+```
+
