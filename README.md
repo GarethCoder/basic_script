@@ -41,7 +41,7 @@ echo "The current directory is $(pwd)"
 ```
 cDir=$(pwd)
 
-echo "The current directory is ${output}"
+echo "The current directory is ${cDir}"
 
 ```
 
